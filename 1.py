@@ -11,9 +11,14 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 maori = ["tahi", "rua", "toru", "wha", "rima", "ono", "whitu", "waru", "iwa", "tekau"]
 
 # Print instructions and your information
-print(f"Hello {username} you are currently {userage} year old")
-print(instruction)
-print("----------------------Are you ready?--------------------------------")
+# check if age entered  is int value
+if type(userage) == int:
+    print(f"Hello {username} you are currently {userage} year old")
+    print(instruction)
+    print("----------------------Are you ready?--------------------------------")
+else:
+    print("Please enter your age")
+
 
 # Main routine ask if user is ready to process
 ready = input("yes or no: ")
@@ -28,6 +33,26 @@ else:
 if ready == "yes":
     print (numbers)
     print(maori)
+# Choose mode between easy or advance
+mode = input("Please choose your mode [easy] or [advance]: ")
+
+# easy mode
+
+if mode == "easy":
+    print("easy mode ---(you will be asked 2 questions about number in maori)---")
+
+# advance mode
+
+elif mode == "advance":
+    print("advance mode ---(write 1-10 in maori in order)---")
+
+    # error
+else:
+    print("Please enter easy or advance")
+
+
+
+
 
 
 
