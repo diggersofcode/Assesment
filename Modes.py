@@ -1,9 +1,10 @@
 # Choose mode between easy or advance
-mode = input("Please choose your mode [easy] or [advance]: ")
+def difficulty():
+    mode = input("Please choose your mode [easy] or [advance]: ")
 
 # easy mode
 
-if mode == "easy":
+  if mode == "easy":
     print("easy mode ---(you will be asked 2 questions about number in maori)---")
 
 # advance mode

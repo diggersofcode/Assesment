@@ -17,7 +17,7 @@ if type(userage) == int:
     print(instruction)
     print("----------------------Are you ready?--------------------------------")
 else:
-    print("Please enter your age")
+    print("Please enter your name or age")
 
 
 # Main routine ask if user is ready to process
@@ -38,7 +38,7 @@ mode = input("Please choose your mode [easy] or [advance]: ")
 
 # easy mode
 
-if mode == "easy":
+if mode == "e   asy":
     print("easy mode ---(you will be asked 2 questions about number in maori)---")
 
 # advance mode
