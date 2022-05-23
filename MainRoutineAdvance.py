@@ -20,3 +20,13 @@ while rounds_played < 10:
     else:
         print("XXXX INCORRECT! XXXX\n")
 print(f"***you got {score} points!***")
+if score < 3:
+    print("////RANK C////")
+elif score < 5:
+    print("////RANK B////")
+elif score == 10:
+    print("////RANK SS////")
+elif score >= 5:
+    print("////RANK A////")
+
+
