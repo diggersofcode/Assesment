@@ -116,7 +116,7 @@ elif mode == "advance":
 else:
     print("Please enter easy or advance")
 
-
+print("///THANKS FOR PLAYING///")
 
 
 
