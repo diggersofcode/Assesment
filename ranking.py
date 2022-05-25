@@ -1,12 +1,10 @@
-score = ""
+import time
 
-while True :
 
-    score = int(input("Score"))
-    if score == 1 :
-        print("////RANK B////")
-    elif score < 1:
-        print("////RANK C////")
-    else:
-        print("////RANK SS////")
-
+def countdown(t):
+    while t > 0:
+        print(t)
+        t -= 1
+        time.sleep(1)
+    print("time zone")
+coun
