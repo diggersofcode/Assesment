@@ -78,7 +78,8 @@ maori = ["tahi", "rua", "toru", "wha", "rima", "ono", "whitu", "waru", "iwa", "t
 # check if age entered  is int value
 if type(userage) == int:
     print(f"Hello {username} you are currently {userage} year old")
-    print(instruction)
+# ask if user want to see instruction
+    instruction_yesno = input("Do you think you can pass the test?")
     print("----------------------Are you ready?--------------------------------")
 else:
     print("Please enter your name or age")
